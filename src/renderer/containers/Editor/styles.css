@@ -1,0 +1,70 @@
+body {
+  margin: 0 !important;
+}
+
+h4,
+p {
+  font-family: monospace;
+}
+.editor__container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(rgb(201, 199, 199), lightgrey);
+  display: flex;
+  flex-direction: column;
+}
+
+.tools__container {
+  width: 100vw;
+  height: 50px;
+  border: 1px solid grey;
+}
+
+.timeline__container {
+  width: 100vw;
+  height: 80vh;
+  border: 1px solid grey;
+}
+
+.track__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid white;
+}
+
+.trackInfo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: black;
+}
+
+.trackInfo__container h4 {
+  color: white;
+  margin: 0;
+  margin-left: 5px;
+}
+.trackInfo__container .trackInfo__soloMuteContainer {
+  display: flex;
+  flex-direction: row;
+}
+.trackInfo__container .trackInfo__soloMuteContainer p {
+  color: grey;
+  padding: 5px;
+  background: white;
+  margin-left: 5px;
+}
+
+.trackWav__container {
+  width: 1000px;
+  border: 1px solid red;
+}
